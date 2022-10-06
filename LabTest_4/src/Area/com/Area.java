@@ -2,6 +2,14 @@ package Area.com;
 
 public class Area {
 
+abstract class Shape{
+
+    abstract void RectangleArea(float length , float breadth);
+    abstract void SquareArea(float radius);
+    abstract void CircleArea(float side);
+    
+}
+
     void CircleArea(float radius){
 
 	     double Area = (radius * radius)*3;
@@ -29,16 +37,6 @@ public class Area {
 
 
 
-abstract class Shape{
-
-
-
-    abstract void RectangleArea(float length , float breadth);
-
-    abstract void SquareArea(float radius);
-
-    abstract void CircleArea(float side);
-}
 
 public static void main(String[] args) {
 

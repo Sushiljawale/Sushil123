@@ -1,10 +1,14 @@
 package Members.com;
 
 public class Manager extends Member {
+	String department;
+	
+	//getter method
 	public String getDepartment() {
 		return department;
 	}
 
+	//setter method
 	public void setDepartment(String department) {
 		this.department = department;
 	}
@@ -13,7 +17,7 @@ public class Manager extends Member {
 		super();
 	}
 
-	String department;
+
 	
 	@Override
 	public void printsalary() {

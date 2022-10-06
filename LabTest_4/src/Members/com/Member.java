@@ -8,6 +8,7 @@ public class Member {
 	String address;
 	int salary;
 	
+	//creat a method
 	public void printsalary() {
 		
 		System.out.println(salary);

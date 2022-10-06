@@ -6,15 +6,16 @@ public class Employee extends Member{
 	
 	public Employee() {
 		super();
-		// TODO Auto-generated constructor stub
+
 	}
 	
-	
+	//getter method
 	public String getSpecialization() {
 		return specialization;
 	}
 
 
+	//setter method
 	public void setSpecialization(String specialization) {
 		this.specialization = specialization;
 	}
